@@ -1,0 +1,64 @@
+ h1 
+{
+    color:#53af95;
+    
+    margin-bottom:  80px ;
+    padding-left: 700px;
+    border: solid black
+}
+
+.header
+{
+    background-color: #e28543;
+    display:flex;
+    flex-direction: column;
+    border:  solid #dc143c;
+    border-width: 5px;
+    justify-content: space-between;
+
+}
+
+.desc
+{
+    background-color: #9acd32;
+    display:flex;
+    justify-content: center;
+}
+
+.footer
+{
+    background-color:#008000;
+    display:flex;
+    justify-content: unsafe;
+    margin: 100px;
+}
+
+.Soul 
+{
+    background-color: #92eb92;
+    display:flex;
+    justify-content: inherit;
+}
+
+ a img
+{
+    margin-left: 300px;
+}
+
+a:link
+{
+    color: yellow
+}
+
+a:visited
+{
+    color:green
+}
+.footer:hover a
+{
+    opacity:1px;
+}
+.footer:hover img
+{
+    opacity: 0.2px;
+}
